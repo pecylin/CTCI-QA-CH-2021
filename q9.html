@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+	<meta charset="UTF-8">
+	<title>中鼎互動小遊戲</title>
+	<link href="css/style.min.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,700,900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<h1 class="sr-only">CTCI 中鼎</h1>
+		</header>
+		<div class="main">
+			<div class="game" data-anwser="A" data-next="q10.html">
+				<p class="text-tips">請將答案正確的袋子拖曳至夾子上</p>
+				<p class="q q-9">中鼎集團是幸福職場的最佳雇主，2020年成立一教學單位，為每位同仁規劃符合其職位需求的必修學分，協助同仁職涯發展，培育優秀工程人才。請問這個教學單位的名稱是? </p>
+				<div class="clip">
+					<span class="clip-body"></span>
+				</div>
+				<ul class="dragObject">
+					<li class="dragObject-item"><span class="sr-only">A</span></li>
+					<li class="dragObject-item"><span class="sr-only">B</span></li>
+					<li class="dragObject-item"><span class="sr-only">C</span></li>
+					<li class="dragObject-item"><span class="sr-only">D</span></li>
+				</ul>
+				<ul class="ans ans-q9">
+					<li class="ans-item">A. 中鼎大學</li>
+					<li class="ans-item">B. 職涯大學</li>
+					<li class="ans-item">C. 福利大學</li>
+					<li class="ans-item">D. 工程大學</li>
+				</ul>
+			</div>
+		</div>
+		<footer>Copyright ©2021 CTCI All rights reserved.</footer>
+		<div class="error" style="display: none;">
+			<div class="error-content">
+				<a href="javascript:" class="btn-back"> &lt; &lt; 返回 </a>
+				<div class="rightAns">
+					<p class="title-rightAns"><span class="title-rightAns-q">Q :</span><span class="title-rightAns-ans">中鼎集團是幸福職場的最佳雇主，2020年成立一教學單位，為每位同仁規劃符合其職位需求的必修學分，協助同仁職涯發展，培育優秀工程人才。請問這個教學單位的名稱是?</span></p>
+					<p class="text-rightAns"><span class="title-rightAns-a">A :</span><span class="title-rightAns-ans">中鼎大學</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.ui.touch-punch.min.js"></script>
+	<script src="js/game.js"></script>
+</body>
+</html>
